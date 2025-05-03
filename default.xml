@@ -31,28 +31,28 @@
   <project name="BladeRunner-A2C/kernel_sony_asahi-devicetrees" path="kernel_platform/sony/asahi-devicetrees" remote="github" revision="vauxite"/>
   <project name="BladeRunner-A2C/kernel_sony_asahi-modules" path="kernel_platform/sony/asahi-modules" remote="github" revision="vauxite"/>
   <project name="AOSPA-overlook/kernel_manifest" path="manifest" remote="github" revision="sony-asahi"/>
-  <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel">
+  <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" >
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
   </project>
-  <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/external/dtc" path="kernel_platform/external/dtc" revision="refs/heads/kernel.build.lnx.1.0.r15-rel"/>
-  <project remote="clo-la" name="kernel_platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/external/stardoc" path="kernel_platform/external/stardoc" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/prebuilts/asuite" path="kernel_platform/prebuilts/asuite" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/prebuilts/bazel/linux-x86_64" path="kernel_platform/prebuilts/bazel/linux-x86_64" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel">
+  <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/external/bazel-skylib" path="kernel_platform/external/bazel-skylib" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/external/dtc" path="kernel_platform/external/dtc" revision="refs/heads/kernel.build.lnx.1.0.r15-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/external/python/absl-py" path="kernel_platform/external/python/absl-py" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/external/stardoc" path="kernel_platform/external/stardoc" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/prebuilts/asuite" path="kernel_platform/prebuilts/asuite" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/prebuilts/bazel/linux-x86_64" path="kernel_platform/prebuilts/bazel/linux-x86_64" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/prebuilts/build-tools" path="kernel_platform/prebuilts/build-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" >
     <linkfile dest="kernel_platform/build/prebuilts/build-tools" src="."/>
   </project>
-  <project remote="clo-la" name="kernel_platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel">
+  <project remote="clo-la" name="kernel_platform/prebuilts/clang-tools" path="kernel_platform/prebuilts/clang-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" >
     <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
   </project>
-  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r23" path="kernel_platform/prebuilts/ndk-r23" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
-  <project remote="clo-la" name="kernel_platform/tools/tradefederation/prebuilts" path="kernel_platform/prebuilts/tradefed" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel"/>
+  <project remote="clo-la" name="kernel_platform/prebuilts/jdk/jdk11" path="kernel_platform/prebuilts/jdk/jdk11" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/system/tools/mkbootimg" path="kernel_platform/tools/mkbootimg" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/toolchain/prebuilts/ndk/r23" path="kernel_platform/prebuilts/ndk-r23" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
+  <project remote="clo-la" name="kernel_platform/tools/tradefederation/prebuilts" path="kernel_platform/prebuilts/tradefed" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" />
   <project remote="clo-la" name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="refs/tags/KERNEL.PLATFORM.4.0.r1-11600-kernel.0" clone-depth="1" />
-  <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel">
+  <project remote="clo-la" name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel" clone-depth="1" >
     <linkfile dest="kernel_platform/build/build-tools/sysroot" src="sysroot"/>
   </project>
 </manifest>
