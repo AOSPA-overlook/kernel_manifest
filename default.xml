@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <remote name="github" fetch="ssh://git@github.com"/>
   <project remote="clo-la" name="kernel/build" path="kernel_platform/build/kernel" revision="refs/heads/kernel.lnx.6.1.r2-rel">
     <linkfile dest="kernel_platform/tools/bazel" src="kleaf/bazel.sh"/>
     <linkfile dest="kernel_platform/build/build.sh" src="build.sh"/>
@@ -26,6 +27,10 @@
     <linkfile dest="kernel_platform/build/static_analysis" src="static_analysis"/>
     <linkfile dest="kernel_platform/build/_wrapper_common.sh" src="_wrapper_common.sh"/>
   </project>
+  <project name="BladeRunner-A2C/kernel_sony_asahi" path="kernel_platform/sony/asahi" remote="github" revision="vauxite"/>
+  <project name="BladeRunner-A2C/kernel_sony_asahi-devicetrees" path="kernel_platform/sony/asahi-devicetrees" remote="github" revision="vauxite"/>
+  <project name="BladeRunner-A2C/kernel_sony_asahi-modules" path="kernel_platform/sony/asahi-modules" remote="github" revision="vauxite"/>
+  <project name="AOSPA-overlook/kernel_manifest" path="manifest" remote="github" revision="sony-asahi"/>
   <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="refs/heads/ks-kernel.lnx.3.0.r1-rel">
     <linkfile dest="kernel_platform/build/prebuilts/kernel-build-tools" src="."/>
   </project>
